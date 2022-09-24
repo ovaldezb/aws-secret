@@ -15,5 +15,5 @@ cloud:
   aws:
     region: us-east-2 
     credentials:
-      access-key: AKIARYNO6URA2R6EFQMD
-      secret-key: 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
+      access-key: 
+      secret-key: 
