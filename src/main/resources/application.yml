@@ -2,10 +2,6 @@ server:
   port: 5000 
 
 spring:
-#  datasource:
-#    url: jdbc:mysql://mydatabasetest.c08oynukl3ie.us-east-2.rds.amazonaws.com:3306/mydatabase
-#    username: root
-#    password: Nt6TGNUYHsaQgBf
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect 
     hibernate:
