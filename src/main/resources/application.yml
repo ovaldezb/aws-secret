@@ -1,0 +1,19 @@
+server:
+  port: 5000 
+
+spring:
+#  datasource:
+#    url: jdbc:mysql://mydatabasetest.c08oynukl3ie.us-east-2.rds.amazonaws.com:3306/mydatabase
+#    username: root
+#    password: Nt6TGNUYHsaQgBf
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect 
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+cloud:
+  aws:
+    region: us-east-2 
+    credentials:
+      access-key: AKIARYNO6URA2R6EFQMD
+      secret-key: 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
